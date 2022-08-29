@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">Naver</h1>
+    <section id="main">
+      <nav id="nav">
+        <ul>
+          <li class="nav__Items">ID로그인</li>
+          <li class="nav__Items">일회용 번호</li>
+          <li class="nav__Items">QR코드</li>
+        </ul>
+      </nav>
+      <form id="loginForm">
+        <main id="loginForm__Input">
+          <input type="text" placeholder="your Id" />
+          <input type="password" placeholder="your Password" />
+        </main>
+        <div class="loginForm__bottom">
+          <span class="checkbox">
+            <input type="checkbox" name="loginMaintance" id="loginMaintance" />
+            로그인 상태 유지
+          </span>
+          <span class="toggleBtn">
+            IP보안
+            <input type="checkbox" name="toggle" id="toggle" />
+          </span>
+        </div>
+        <div class="loginBtnContainer">
+          <button class="loginBtn">로그인</button>
+        </div>
+      </form>
+    </section>
+    <div class="bottom">비밀번호 찾기 | 아이디 찾기 | 회원가입</div>
+  </body>
+</html>
