@@ -9,38 +9,41 @@
   </head>
   <body>
     <main class="calculator_container">
-      <section class="section-result">0</section>
+      <form type="submit" class="result__Container">
+        <input type="text" class="section-result" placeholder="0"></input>
+      </form>
       <section class="input__Container">
         <div class="input__Container--row1">
-          <button class="input__Btn">AC</button>
+          <button class="input__Btn initial">AC</button>
           <button class="input__Btn">+/-</button>
-          <button class="input__Btn">%</button>
-          <button class="input__Btn">÷</button>
+          <button class="input__Btn operator">%</button>
+          <button class="input__Btn operator">÷</button>
         </div>
         <div class="input__Container--row2">
           <button class="input__Btn">7</button>
           <button class="input__Btn">8</button>
           <button class="input__Btn">9</button>
-          <button class="input__Btn">×</button>
+          <button class="input__Btn operator">x</button>
         </div>
         <div class="input__Container--row3">
           <button class="input__Btn">4</button>
           <button class="input__Btn">5</button>
           <button class="input__Btn">6</button>
-          <button class="input__Btn">-</button>
+          <button class="input__Btn operator">-</button>
         </div>
         <div class="input__Container--row4">
           <button class="input__Btn">1</button>
           <button class="input__Btn">2</button>
           <button class="input__Btn">3</button>
-          <button class="input__Btn">+</button>
+          <button class="input__Btn operator">+</button>
         </div>
         <div class="input__Container--row5">
           <button class="input__Btn">0</button>
           <button class="input__Btn">.</button>
-          <button class="input__Btn">=</button>
+          <button class="input__Btn operatorEqual">=</button>
         </div>
       </section>
     </main>
   </body>
+  <script src="main.js" defer></script>
 </html>
